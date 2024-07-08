@@ -44,9 +44,9 @@ height: 100%;
 }
 .second-section-content{
 
-    display: flex;
+  display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: ce  dnter;
     justify-content: center;
 }
 .second-section-content p{
@@ -77,4 +77,63 @@ font-weight: 700;
     height: 806px;
     margin:0 auto ;
     margin-top: 90px;
+}
+.left-side-content{
+    display: flex;
+    flex-direction: column;
+    align-items:   center;
+    justify-content: center;
+    width: 50%;
+    width: 642px;
+ 
+    padding: 30px;
+
+
+}
+.right-side-content{
+    width:50% ;
+    height: 600px;
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-side-content img{ 
+    width: 349.16px;
+height: 464.65px;
+}
+
+
+.mid-night-party-container{
+    width:1320px ;
+    height:600px ;
+
+    margin: 0 auto;
+    display: flex;
+    background-image: url(../images/Vectorrr.png);
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: overlay;
+
+}
+.left-side-content h2{
+color: rgb(255, 255, 255);
+font-family: Merriweather;
+font-size: 34px;
+font-weight: 900;
+}
+.left-side-content p{
+color: rgb(255, 255, 255);
+font-family: Merriweather;
+font-size: 18px;
+font-weight: 400;
+margin-left: 70px;
+}
+#midnight-button{
+
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
 }
