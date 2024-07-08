@@ -115,6 +115,7 @@ height: 464.65px;
     background-size: cover;
     background-color: rgba(0,0,0,0.5);
     background-blend-mode: overlay;
+    margin-bottom: 100px;
 
 }
 .left-side-content h2{
@@ -136,4 +137,70 @@ color: rgb(255, 255, 255);
 font-family: Inter;
 font-size: 20px;
 font-weight: 700;
+}
+.holiday-text-container h4{
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 91px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.holiday-text-container h5{
+color: rgb(7, 2, 17);
+font-family: Inter;
+font-size: 14px;
+font-weight: 500;
+}
+.holiday-text-container{
+width: 1068px;
+height: 260px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin: 0 auto;
+margin-top: 100px;
+}
+.holiday{
+    color: rgb(255, 0, 0);
+}
+.holiday-section-container{
+    width: 1320px ;
+    height: 986.07px ;
+    border: 2px solid red;
+    margin: 0 auto;
+    margin-top: 100px;
+    position: relative;
+}
+.holiday-text-container p{
+ color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+}
+.solid-color {
+    width: 1320px;
+    height: 229px;
+    background-color:red ;
+    position: absolute;
+    top: 77%;
+}
+.giftbox {
+    width: 674.82px;
+    height: 577.96px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+}
+.girl-container{
+    margin-right: 10px;
+}
+.discount{
+    position: relative;
+    bottom:30% ;
+    left: 55%;
+    z-index: 1;
+
 }
